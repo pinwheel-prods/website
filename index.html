@@ -7,7 +7,11 @@
 <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200&display=swap" rel="stylesheet">
 <link rel="icon"
       type="image/png"
-      href="./pinwheel-logo.ico">
+      href="./images/pinwheel-logo.ico">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
 </head>
 
 
@@ -17,9 +21,21 @@
 
 <body>
 
+  <div class="topnav" id="myTopnav">
+    <a href="#home" class="active">Home</a>
+    <a href="./about.html">About</a>
+    <a href="./our-artists">Our Artists</a>
+    <a href="./exchange">Exchange</a>
+    <a href="./network">Network</a>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
+
+
   <div class="header">
 
-  <img src="./pinwheel-logo.png" class="main-img"> </img>
+  <img src="./images/pinwheel-logo.png" class="main-img"> </img>
 
   <p><br> <br>EQUIPMENT. COMMUNITY. PRODUCTION. <br> <br></p>
 </div>
@@ -64,13 +80,15 @@
 
   <input class="name-input" type="text" name="name" placeholder="Name">
   <input class="email-input"type="email" name="email" placeholder="Email">
-  <textarea placeholder="Message" class="message-input" name="message" >
-   </textarea>
+  <textarea placeholder="Message" class="message-input" name="message"></textarea>
+
   <button class= "submit-button" type="submit">Send</button>
 
 </form>
 
 </div>
+
+<script src="./js/nav-bar-response.js"></script>
 
 
 </body>
