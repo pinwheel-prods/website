@@ -2,6 +2,7 @@ body{
   background-color: #000000;
 }
 
+html, body {width: auto!important; overflow-x: hidden!important}
 /* Add a black background color to the top navigation */
 .topnav {
   background-color: #000000;
