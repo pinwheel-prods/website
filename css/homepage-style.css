@@ -16,7 +16,7 @@ body{
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  font-size: 200%;
+  font-size: 160%;
   font-family: 'Manrope', sans-serif;
 
 }
@@ -125,7 +125,7 @@ div.main-text{
 div.main-text p{
   color: white;
   margin: 0;
-  font-size: 250%;
+  font-size: 200%;
   font-family: 'Manrope', sans-serif;
 
 }
@@ -133,7 +133,7 @@ div.main-text p{
 div.contact-form{
 
   border-radius: 5px;
-  padding: 100px;
+  padding: 20px;
   padding-top: 0;
   align-items: center;
   display: flex;
@@ -145,13 +145,17 @@ div.contact-form{
 
 }
 
-div.wrapper p{
+.wrapper{
+  margin-top: 5%;
+}
+
+.wrapper p{
   font-family: 'Manrope', sans-serif;
-  font-size: 220%;
+  font-size: 250%;
+  margin-bottom: 60px;
   text-align: center;
   color: white;
-  padding: 30px;
-
+  padding-top: 50px;
 
 }
 
