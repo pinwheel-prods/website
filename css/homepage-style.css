@@ -1,5 +1,5 @@
 body{
-  background-color: #000000;
+  background-color: #000000!important;
 }
 
 html, body {width: auto!important; overflow-x: hidden!important}
@@ -64,7 +64,7 @@ html, body {width: auto!important; overflow-x: hidden!important}
 }
 
 h1{
-  color: white;
+  color: white!important;
   text-align: center;
   font-style: normal;
   font-family: 'Manrope', sans-serif;
@@ -87,7 +87,7 @@ div.header{
 }
 
 div.header p{
-  color: white;
+  color: white!important;
   margin: 0;
   font-size: 29px;
   font-family: 'Manrope', sans-serif;
@@ -115,8 +115,8 @@ div.main-text{
   align-items: center;
   height: 20%;
   width: auto;
-  margin-left: 20%;
-  margin-right: 20%;
+  margin-left: 15%;
+  margin-right: 15%;
   text-align: center;
   justify-content: center;
   padding-top: 75px;
@@ -124,7 +124,7 @@ div.main-text{
 }
 
 div.main-text p{
-  color: white;
+  color: white!important;
   margin: 0;
   font-size: 200%;
   font-family: 'Manrope', sans-serif;
@@ -155,7 +155,7 @@ div.contact-form{
   font-size: 250%;
   margin-bottom: 60px;
   text-align: center;
-  color: white;
+  color: white!important;
   padding-top: 50px;
 
 }

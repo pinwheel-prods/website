@@ -1,19 +1,11 @@
 @import url('https://fonts.googleapis.com/css?family=Allura|Josefin+Sans');
 
-*{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
 
 img {
   border-radius: 50%;
 }
 
-body{
-  background: #000000;
-  font-family: 'Josefin Sans', sans-serif;
-}
+html, body {width: auto!important; overflow-x: hidden!important}
 
 .wrapper{
   margin-top: 10%;

@@ -1,0 +1,62 @@
+.background {
+  background-color: #000000;
+}
+
+.title-header{
+  font-family: 'Manrope', sans-serif;
+  color: #f7d9ce;
+  font-size: 300%!important;
+
+}
+
+.title-header-2{
+  font-family: 'Manrope', sans-serif;
+  color: #f7d9ce;
+  font-size: 300%!important;
+
+}
+
+.bg-primary {
+  background-color: #000000!important;
+  text-align: center!important;
+
+}
+
+.border-primary{border-color:#000000!important}
+
+.btn-outline-primary {
+    border-color: #d9896c!important;
+    color: #d9896c!important;
+}
+
+.btn-outline-primary:hover{
+  background-color: #d9896c!important;
+  color:#000000!important;
+}
+
+.showSignUpForm {
+  color:#d9896c!important;
+  text-decoration-color: red!important;
+}
+
+.showSignUpForm:hover{
+  color:#d9896c!important;
+  text-decoration: underline!important;
+}
+
+
+
+.showSignInForm {
+  color:#d9896c!important;
+
+}
+
+.showSignInForm:hover {
+  color:#d9896c!important;
+  text-decoration: underline!important;
+
+}
+
+.container-fluid{
+  border-radius: 5
+}
