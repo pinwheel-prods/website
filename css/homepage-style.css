@@ -134,18 +134,23 @@ div.contact-form{
 
   border-radius: 5px;
   padding: 100px;
-  padding-top: 60px;
+  padding-top: 0;
   align-items: center;
-  max-width: auto;
+  display: flex;
+  justify-content: center;
+  width: auto;
+  text-align: center;
+  flex-wrap: wrap;
 
 
 }
 
-div.contact-form p{
-  padding-top: 20px;
-  color: white;
-  font-size: 200%;
+div.wrapper p{
   font-family: 'Manrope', sans-serif;
+  font-size: 220%;
+  text-align: center;
+  color: white;
+  padding: 30px;
 
 
 }
