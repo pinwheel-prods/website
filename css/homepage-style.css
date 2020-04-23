@@ -20,7 +20,18 @@ padding-top: 100px
 
 div.header{
   text-align: center;
+
 }
+
+div.header p{
+  color: white;
+  margin: 0;
+  font-size: 29px;
+  font-family: 'Manrope', sans-serif;
+
+}
+
+
 
 
 div.spacer1{
