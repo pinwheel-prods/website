@@ -143,6 +143,8 @@ div.contact-form{
   width: auto;
   text-align: center;
   flex-wrap: wrap;
+  margin-left: 10px;
+  margin-right: 10px;
 
 
 }
