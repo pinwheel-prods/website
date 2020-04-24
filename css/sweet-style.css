@@ -1,0 +1,35 @@
+
+
+.divCover {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.divCover img{
+  width: 70%;
+}
+a{
+  text-decoration: none !important;
+}
+#userFullNameError, #userQualificationError, #userLocationError, #userEmailError, #userPasswordError, #userSIEmailError, #userSIPasswordError, #userBioError, #editProfileForm{
+  display: none;
+}
+
+#userAvatar{
+  width: 120px;
+  height: 120px;
+}
+
+button {
+  background-color: white!important;
+  color:#000000!important;
+  border-color:#d9896c!important;
+
+}
+
+button:hover{
+  background-color:#d9896c!important;
+  text-decoration: underline!important;
+
+
+}

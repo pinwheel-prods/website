@@ -170,11 +170,22 @@ function signIn(){
     var checkUserPasswordValid = userSIPassword.match(userSIPasswordFormate);
 
     if(checkUserEmailValid == null){
+
+
+
         return checkUserSIEmail();
     }else if(checkUserPasswordValid == null){
+
+
+
         return checkUserSIPassword();
     }else{
+
         firebase.auth().signInWithEmailAndPassword(userSIEmail, userSIPassword).then((success) => {
+
+
+
+
             swal({
                 type: 'successfull',
                 title: 'Succesfully signed in',
@@ -306,3 +317,4 @@ function signOut(){
             text: "Error",
         })
     });
+}

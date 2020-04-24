@@ -20,13 +20,13 @@
   <!-- Custom CSS -->
   <link rel="stylesheet" type="text/css" href="../css/homepage-style.css">
   <link rel="stylesheet" href="../css/auth-style.css">
+  <link rel="stylesheet" href="../css/sweet-style.css">
 
   <!-- Sweet Alert JavaScript -->
-  <script src="./js/sweetalert2.js"></script>
-  <!-- Nunito Google Font -->
-  <link href="https://fonts.googleapis.com/css?family=Nunito:400,700" rel="stylesheet">
+  <script src="../js/sweetalert.js"></script>
 
-  <title>Log in | Pinwheel Profile</title>
+
+  <title>Sign Up| Pinwheel Profile</title>
 
 </head>
 
@@ -34,15 +34,14 @@
 
 <body class="background">
 
-
     <div class="topnav" id="myTopnav">
       <a href="../index.html">Home</a>
-      <a href="../about.html" >About</a>
-      <a href="../forum.html">Forum</a>
-      <a href="../people.html"  >People</a>
-      <a href="../projects.html">Projects</a>
-      <a href="../exchange.html">Exchange</a>
-      <a href="../my-profile.html" class="active">My Profile</a>
+      <a href="./about.html" >About</a>
+      <a href="./forum.html">Forum</a>
+      <a href="./people.html"  >People</a>
+      <a href="./projects.html">Projects</a>
+      <a href="./exchange.html">Exchange</a>
+      <a href="./my-profile.html" class="active">My Profile</a>
       <a href="javascript:void(0);" class="icon" onclick="myFunction()">
         <i class="fa fa-bars"></i>
       </a>
@@ -63,12 +62,12 @@
                         <div id="signUpForm">
                             <h2 class="h2 text-center text-dark mb-3">Sign Up</h2>
                             <div class="form-group">
-                                <label for="userFullName">Name<span class="text-danger ml-1">*</span></label>
+                                <label for="userFullName">First Name<span class="text-danger ml-1">*</span></label>
                                 <input type="text" class="form-control" id="userFullName" onblur="checkUserFullName()" placeholder="name">
                                 <small id="userFullNameError" class="form-text text-danger">This Field must be filled.</small>
                             </div>
                             <div class="form-group">
-                                <label for="userSurname">Surname<span class="text-danger ml-1">*</span></label>
+                                <label for="userSurname">Last Name<span class="text-danger ml-1">*</span></label>
                                 <input type="text" class="form-control" id="userSurname" onblur="checkUserSurname()" placeholder="surname">
                                 <small id="userSurnameError" class="form-text text-danger">This Field must be filled.</small>
                             </div>
@@ -83,7 +82,7 @@
                                 <small id="userPasswordError" class="form-text text-danger">Your password must be uppercase, lowercase and more than 10 characters.</small>
                             </div>
                             <button type="button" class="btn btn-outline-primary text-uppercase mb-3" onclick="signUp()">Sign Up</button>
-                            <p>Already a member? Sign in: <a href="../index.html"><strong class="text-primary text-uppercase showSignInForm">Sign In</strong></a></p>
+                            <p>Already a member? Sign in: <a href="./my-profile-login.html"><strong class="text-primary text-uppercase showSignInForm">Sign In</strong></a></p>
                         </div>
                     </div>
                 </div>
@@ -111,25 +110,16 @@
 
 <script src="https://www.gstatic.com/firebasejs/6.1.1/firebase-database.js"></script>
 
-<script>
-  // Your web app's Firebase configuration
-  var firebaseConfig = {
-    apiKey: "AIzaSyDtaXNVwWCDxp5mnqvLDFhOw_ngWnubSMU",
-    authDomain: "fir-authproject-2c928.firebaseapp.com",
-    databaseURL: "https://fir-authproject-2c928.firebaseio.com",
-    projectId: "fir-authproject-2c928",
-    storageBucket: "fir-authproject-2c928.appspot.com",
-    messagingSenderId: "807340522328",
-    appId: "1:807340522328:web:63e986c146d09fb117832d",
-    measurementId: "G-740FSXFRBQ"
-  };
-  // Initialize Firebase
-  firebase.initializeApp(firebaseConfig);
-  firebase.analytics();
-</script>
 
-    <!-- Custom JavaScript -->
-    <script src="../js/app.js"></script>
+<script src="../js/pinwheel-bios/firebase-config.js"></script>
+
+
+<!-- Custom JavaScript -->
+<script src="../js/app.js"></script>
+<script src="../js/nav-bar-response.js"></script>
+
+
+
 
 </body>
 </html>
