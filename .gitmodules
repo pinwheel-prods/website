@@ -1,0 +1,6 @@
+[submodule "twitter-feed"]
+	path = twitter-feed
+	url = git@github.com:kakaly/twitter-feed.git
+[submodule "forum"]
+	path = forum
+	url = https://github.com/pinwheel-prods/twitter-feed.git
