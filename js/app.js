@@ -226,6 +226,7 @@ firebase.auth().onAuthStateChanged((user)=>{
             document.getElementById("userPfTw").setAttribute('href', dataSnapShot.val().userTw);
             document.getElementById("userPfGp").setAttribute('href', dataSnapShot.val().userGp);
             document.getElementById("userPfBio").innerHTML = dataSnapShot.val().userBio;
+            document.getElementById("userAvatar").src = dataSnapShot.val().userProfileURL;
         })
     } else {
     //   No user is signed in.
@@ -261,6 +262,7 @@ function saveProfile(){
     let userTwitter = document.getElementById("userTwitter").value
     let userGooglePlus = document.getElementById("userGooglePlus").value
     let userBio = document.getElementById("userBio").value
+    let userProfileURL = profileURL
     var userFullNameFormate = /^([A-Za-z.\s_-])/;
     var checkUserFullNameValid = userFullName.match(userFullNameFormate);
     if(checkUserFullNameValid == null){
@@ -281,6 +283,7 @@ function saveProfile(){
             userTw: userTwitter,
             userGp: userGooglePlus,
             userBio: userBio,
+            userProfileURL: userProfileURL,
         }
         firebaseRef.child(uid).set(userData);
         swal({
@@ -318,3 +321,37 @@ function signOut(){
         })
     });
 }
+
+var profileURL = 'test';
+
+function uploadImage() {
+  const ref = firebase.storage().ref();
+  const file = document.querySelector("#photo").files[0];
+  const name = +new Date() + "-" + file.name;
+  const metadata = {
+    contentType: file.type
+  };
+  const task = ref.child('profilePics/' + name).put(file, metadata);
+  task
+    .then(snapshot => snapshot.ref.getDownloadURL())
+    .then(url => {
+      console.log(url);
+      profileURL = url;
+      document.querySelector("#image").src = url;
+
+
+    })
+    .catch(console.error);
+}
+
+const video = document.getElementById('video');
+const canvas = document.getElementById('canvas');
+const snap = document.getElementById("snap");
+const errorMsgElement = document.querySelector('span#errorMsg');
+
+const constraints = {
+audio: false,
+video: {
+width: 400, height: 400
+}
+};

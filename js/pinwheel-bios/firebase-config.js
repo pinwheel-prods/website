@@ -4,7 +4,7 @@ var firebaseConfig = {
   authDomain: "pinwheel-productions.firebaseapp.com",
   databaseURL: "https://pinwheel-productions.firebaseio.com",
   projectId: "pinwheel-productions",
-  storageBucket: "pinwheel-productions.appspot.com",
+  storageBucket: "gs://pinwheel-productions.appspot.com",
   messagingSenderId: "205414102112",
   appId: "1:205414102112:web:f272953210cfbdacb03f05",
   measurementId: "G-JWMEWTWLMJ"
