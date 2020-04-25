@@ -322,7 +322,7 @@ function signOut(){
     });
 }
 
-var profileURL = 'test';
+var profileURL = './images/profile-img/blank-avatar.png';
 
 function uploadImage() {
   const ref = firebase.storage().ref();
