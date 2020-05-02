@@ -76,7 +76,7 @@ h1{
 
 
 img.main-img{
-width: 400px;
+width: 350px;
 vertical-align: middle;
 padding-top: 100px
 }
@@ -164,7 +164,7 @@ div.contact-form{
 }
 
 input.name-input{
-  width: 100%;
+  width: 70%;
   padding: 12px 20px;
   margin: 8px 0;
   display: inline-block;
@@ -177,7 +177,7 @@ input.name-input{
 }
 
 input.email-input{
-  width: 100%;
+  width: 70%;
   padding: 12px 20px;
   margin: 8px 0;
   display: inline-block;
@@ -191,7 +191,7 @@ input.email-input{
 }
 
 textarea.message-input{
-  width: 100%;
+  width: 70%;
   height: 400px;
   padding: 12px 20px;
   margin: 8px 0;
@@ -215,7 +215,7 @@ textarea:hover{
 
 
 button.submit-button {
-  width: 100%;
+  width: 70%;
   background-color: #f7d9ce;
   padding: 14px 20px;
   margin: 8px 0;
